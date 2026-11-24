@@ -1,0 +1,9 @@
+.keyword-group-create,.keyword-group-add{display:grid;align-items:end;gap:12px}
+.keyword-group-create{grid-template-columns:minmax(260px,1fr) auto}
+.keyword-group-add{grid-template-columns:minmax(280px,1fr) 190px auto}
+.keyword-group-create label,.keyword-group-add label{margin:0}
+.keyword-group-create input,.keyword-group-add input{display:block;width:100%;min-height:36px;padding:8px 10px;border:1px solid var(--line);border-radius:6px;background:#fff;color:var(--ink);font:inherit;font-size:11px}
+.keyword-group-create input:focus,.keyword-group-add input:focus,.results-controls input:focus{border-color:#7acfc0;box-shadow:0 0 0 3px #2ab6a31a;outline:0}
+.keyword-group-create .button,.keyword-group-add .button{min-height:36px;margin:0}
+.results-controls input{min-height:32px;min-width:220px;padding:6px 9px;border:1px solid var(--line);border-radius:6px;background:#fff;color:var(--ink);font:inherit;font-size:10px}
+@media(max-width:760px){.keyword-group-create,.keyword-group-add{grid-template-columns:1fr}.keyword-group-create .button,.keyword-group-add .button{justify-self:start}.results-controls input{width:100%;min-width:0}}
